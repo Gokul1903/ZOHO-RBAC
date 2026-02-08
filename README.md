@@ -181,7 +181,7 @@ git clone https://github.com/Gokul1903/ZOHO-RBAC.git
 - DB_NAME=zoho_RBAC
 - JWT_SECRET=your_secret_key
 
-Use .env.example as reference if shared.
+Use .env.example for reference.
 
 ## Database Setup
 
@@ -217,7 +217,7 @@ Create .env inside FrontEnd/:
 
 - VITE_BASE_URL=http://localhost:5000
 
-Use .env.example as reference if shared.
+Use .env.example for reference.
 
 Start Frontend
 - npm run dev
