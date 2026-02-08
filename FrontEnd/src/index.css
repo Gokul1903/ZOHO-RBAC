@@ -1,0 +1,151 @@
+
+.modal-backdrop {
+  backdrop-filter: blur(5px);
+}
+
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #f8f9fb;
+  color: #333;
+}
+
+
+:root {
+  --zoho-red: #e42527;
+  --zoho-green: #089949;
+  --zoho-blue: #226db4;
+  --zoho-yellow: #f9b21d;
+}
+
+.btn-zoho-outline-primary {
+  background-color: transparent;
+  color: var(--zoho-blue);
+  border: 1px solid var(--zoho-blue);
+}
+.btn-zoho-outline-primary:hover {
+  background-color: var(--zoho-blue);
+  color: #fff;
+}
+
+.btn-zoho-outline-success {
+  background-color: transparent;
+  color: var(--zoho-green);
+  border: 1px solid var(--zoho-green);
+}
+.btn-zoho-outline-success:hover {
+  background-color: var(--zoho-green);
+  color: #fff;
+}
+
+.btn-zoho-outline-warning {
+  background-color: transparent;
+  color: var(--zoho-yellow);
+  border: 1px solid var(--zoho-yellow);
+}
+.btn-zoho-outline-warning:hover {
+  background-color: var(--zoho-yellow);
+  color: #000;
+}
+
+.btn-zoho-outline-danger {
+  background-color: transparent;
+  color: var(--zoho-red);
+  border: 1px solid var(--zoho-red);
+}
+.btn-zoho-outline-danger:hover {
+  background-color: var(--zoho-red);
+  color: #fff;
+}
+
+
+.btn-zoho-primary {
+  background-color: var(--zoho-blue);
+  color: #fff;
+  border: none;
+}
+.btn-zoho-primary:hover {
+  background-color: #1b5a96;
+}
+
+.btn-zoho-success {
+  background-color: var(--zoho-green);
+  color: #fff;
+  border: none;
+}
+.btn-zoho-success:hover {
+  background-color: #067a3a;
+}
+
+.btn-zoho-warning {
+  background-color: var(--zoho-yellow);
+  color: #000;
+  border: none;
+}
+.btn-zoho-warning:hover {
+  background-color: #d99a17;
+}
+
+.btn-zoho-danger {
+  background-color: var(--zoho-red);
+  color: #fff;
+  border: none;
+}
+.btn-zoho-danger:hover {
+  background-color: #b81d1f;
+}
+
+.navbar-zoho {
+  border-bottom: 2px solid #eee;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+
+.badge-zoho {
+  background-color: var(--zoho-blue);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.35em 0.6em;
+  border-radius: 0.25rem;
+}
+
+
+.card-zoho {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-zoho h6 {
+  color: var(--zoho-blue);
+  font-weight: 600;
+}
+
+.footer-zoho {
+  background-color: #ffffff;
+  border-top: 1px solid #eee;
+  box-shadow: 0 -1px 3px rgba(0,0,0,0.04);
+}
+
+.footer-zoho span {
+  font-size: 0.75rem;
+}
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1; 
+}
