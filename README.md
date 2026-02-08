@@ -231,17 +231,9 @@ Email: admin@zoho.in
 Password: zohoadmin@321
 
 
-# Adding a New Table (No Frontend Change Required)
+# DEMO VIDEO
 
-- Create a table in MySQL
-- Insert its name into data_tables
-- Define sensitive columns in sensitive_fields
-- Add permissions (view_x, edit_x, edit_x_field)
-- Assign permissions to roles
-
-Table will automatically appear in UI
-Permissions will work without code changes
-
+https://drive.google.com/file/d/1J7afEc8qVSo1lm2HhEF2Ck-psO0lG2q5/view?usp=sharing
 
 # Author
 Gokul Raj
