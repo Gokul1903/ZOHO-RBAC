@@ -9,9 +9,12 @@ api.interceptors.response.use(
   res => res,
   err => {
     if (err.response && err.response.status === 401) {
-      sessionStorage.removeItem("user");
-      window.location.href = "/";
-      alert("Session expired. Please log in again.");
+      const isLoginRequest = err.config.url.includes("/login");
+      if (!isLoginRequest) {
+        sessionStorage.removeItem("user");
+        window.location.href = "/";
+        alert("Session expired. Please log in again.");
+      }
     }
     return Promise.reject(err);
   }
